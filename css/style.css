@@ -1,0 +1,60 @@
+#calendar{
+	background-image: url("../three.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	width: 100%;
+	height: 640px;
+	margin: 0;
+	padding: 0;
+}
+.container{
+	max-width: 750px;
+	font-family: sans-serif;
+	margin-left: 250px;
+	padding-top: 30px;
+}
+.month{
+	text-align: center;
+	font-size: 2.6em;
+	color: #fff;
+	padding: 10px;
+	letter-spacing: 1px;
+	border: 5px solid #fff;
+	background-color: rgba(0,0,0,0.5);
+}
+table th{
+	color: #fff;
+	background-color: rgba(0,0,0,0.3);
+}
+table, th, td{
+	width: 100%;
+	table-layout: fixed;
+	text-align: center;
+	font-size: 25px;
+	border-collapse: collapse;
+	border: 5px solid #fff;
+	color: #fff;
+	padding: 25px;
+	cursor: pointer;
+}
+tr,th,td{
+	padding: 15px;
+}
+tr td{
+	font-size: 30px;
+}
+th{
+	color: #fff;
+}
+td{
+	background: rgba(0,0,0,0.5);
+}
+td:hover{
+	background: blue;
+}
+.one{
+	background-color: green;
+}
+.two{
+	background-color: red;
+}
